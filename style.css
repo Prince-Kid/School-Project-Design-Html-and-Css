@@ -1,0 +1,441 @@
+*{
+	padding: 0;
+	margin: 0;
+	background: rgba(0, 0, 0, 0.0);
+	scroll-behavior: smooth;
+	offset: -50;
+	animation-duration: 330ms;
+}
+section{
+	scroll-behavior: smooth;
+}
+.page{
+
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.0)0%,rgba(0, 0, 0, 0.0)0%) ,url("C:/Users/PRINCE/Documents/placide project/pexels-pixabay-460672.jpg");
+	background-size: cover;
+	background: lightblue;
+}
+body{
+		
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;    
+}
+.nav{
+	
+	background-color:rgba(0, 0, 0, 0.3);
+	border-bottom: 5px solid white;
+	position: fixed;
+	width: 100%;
+}
+
+.container{
+	
+}
+.container ul{
+text-align: center;
+float: right;
+width: 60%;
+position: absolute;
+top: 30px;
+margin-left: 300px;
+margin-bottom: 20px;
+
+}
+.container ul li{
+	display: inline;
+	
+}
+.container ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	margin: 10px;
+	color: blue;
+	font-weight: 20px;
+
+}
+.container .logo{
+	margin-top: 20px;
+	width: 200px;
+   
+    
+}
+.welcome .container{
+	margin-top: 1000px;
+	text-align: center;
+	height: 60vh;
+	
+}
+.welcome .container .column{
+	text-align: center;
+
+	
+	height: 20%;
+	margin: 20px;
+	margin-right: 30px;
+}
+.logo span{
+    color: blue;
+}
+.logo h2{
+	color: ghostwhite;
+	cursor: pointer;
+	user-select: none;
+}
+.container ul li a.active,
+.container ul li a:hover{
+	color: white;
+	border-bottom: 3px solid blue;
+	transition: .5s;
+}
+.column h2 {
+	
+	color: blue;
+	font-size: 42px;
+	margin-top: 100px;
+	
+}
+
+.column .und{
+
+}
+.column h2 span{
+	color: white;
+}
+.welcome{
+	margin-top: 0px;
+	background: rgba(0, 0, 0, 0.0);
+	
+	padding-top: 2px;
+}
+.welcome .container{
+	padding-top: 1px;
+	margin: 0px 50px 0px 100px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 50px;
+
+}
+.column strong{
+	color: white;
+	font-size: 26px;
+}
+.buto {
+	margin-top: 20px;
+}
+.buto button {
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 15px;
+	border: 2px solid whitesmoke;
+	background: blue;
+}
+.buto a{
+	color: white;
+	text-decoration: none;
+}
+.buto a:hover{
+	color: blue;
+	
+}
+.buto button:hover{
+	color: blue;
+	background: white;
+	border: 2px solid blue;	
+}
+.lasts{
+	background: rgba(0, 0, 0, 0.4);
+	margin-top: 0px;
+	text-align: center;
+	height: 50px;
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.4)50%,rgba(0, 0, 0, 0.4)50%) ,url("C:/Users/PRINCE/Documents/placide project/pexels-pixabay-460672.jpg");
+	background-size: cover;
+	width: 100%;
+}
+ .lasti h6{
+  padding-top: 20px;
+}
+.lasts .container .lasti a{
+	color: white;
+	text-decoration: none;
+	padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+.staff{
+	
+	margin-top: 0px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	margin-bottom: 20px;
+	border-radius: ;
+	padding: 10px;
+}
+.staff .title{
+	font-weight: bold;
+	text-align: center;
+	color: ;
+}
+.cont button{
+	padding: 5px;
+	color: blue;
+	font-weight: bold;
+	font-size: 18px;
+	background: white;
+	width: 100%;
+	margin-bottom: 10px;
+	border: 2px solid blue;
+	border-radius: 4px;
+}
+.staff .container{
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	padding: 10px;
+}
+.card{
+	background: rgba(0, 0, 0, 1.0);
+	background-color: darkred;
+}
+.card h5{
+	color: white;
+}
+.title{
+	color: white;
+}
+.card  .cont{
+	background-color: darkred;
+	color: white;
+}
+
+
+
+.tradecoursess{
+	margin-top: 0px;
+    
+	color: white;
+	padding: 10px;
+	
+}
+.tradecoursess .logo{
+	text-align: center;
+	color: darkblue;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0.0);
+	border-radius: 10px;
+}
+.tradecoursess .container{
+	background: rgba(0, 0, 0, 0.0);
+	padding: 10px;
+	border-radius: 10px;
+ 
+}
+
+.courses{
+	border: 4px solid blue;
+	border-radius: 15px;
+	padding: 10px;
+	background: rgba(20, 5,10, 8.4);
+	color: white;
+}
+.courses h2{
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.courses .title{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+.trainer{
+	margin-top: 0px;
+	
+	padding: 10px;
+	color: white;
+}
+.trainer h3{
+	color: darkblue;
+}
+.col-sm-3 h3{
+   font-size: 18px;
+}
+.col-sm-3 h4{
+   font-size: 18px;
+}
+.trainer .logo{
+	text-align: center;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.0);
+}
+.trainer .container{
+background: rgba(0, 0, 0, 0.0);
+padding: 10px;
+border-radius: 10px;
+}
+
+.col-sm-4 :hover{
+		transform: scale(1);
+	transition:2s all;
+}
+
+.offer{
+	padding: 100px;
+	margin: 0;
+	height: 109vh;
+
+}
+.staf{
+	height: 109vh;
+
+}
+
+.welc{
+	padding-top: 100px;
+	margin: 0;
+	height: 100vh;
+
+}
+.About{
+	border: 1px solid gray;
+	height: 109vh;
+	
+		
+}
+.abouts{
+	margin-top: 0px;
+
+}
+.abouts .container{
+	text-align: center;
+	padding-top: 1px;
+	margin: 80px 0px 0px 100px;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 50px;
+	color: white;
+	height: 60vh;
+}
+.abouts .container h2{
+	color: blue;
+	margin-top: 80px;
+}
+.abouts .container span{
+	color: white;
+}
+
+.off{
+	margin-top: 20px;
+}
+.off button{
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	background: blue;
+	border: 2px solid white;
+	font-weight: bold;
+}
+.off a{
+	color: white;
+	text-decoration: none;
+}
+.off a:hover{
+	color: blue;
+}
+.off button:hover{
+	color: blue;
+	background: white;
+	border: 2px solid blue;
+	transition: .5s;
+}
+section{
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.0)0%,rgba(0, 0, 0, 0.0)0%) ,url("C:/Users/PRINCE/Documents/placide project/pexels-pixabay-460672.jpg");
+	background-size: cover;
+	border: 1px solid gray;
+}
+.st{
+	padding-top: 100px;
+	height: 109vh;
+}
+
+
+
+
+
+.open-button{
+	background: blue;
+	color: white;
+	position: fixed;
+	bottom: 7%;
+	right: 20px;
+	padding: 15px;
+	border-radius: 45%;
+	border: none;
+
+}
+.chat-popup{
+	display:none;
+	position: fixed;
+	bottom: 16%;
+	right: 10px;
+	z-index: 9;
+	border: 10px solid blue;
+	box-shadow: white;
+	color: white;
+	border-radius: 15px;
+	padding: px;
+	background: white;
+
+}
+
+.form-container{
+	max-width: 300px;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+.form-container h1{
+	text-align: center;
+	text-transform: ;
+	color: darkseagreen;
+}
+.form-container b{
+	text-align: center;
+	text-transform: ;
+	color: darkseagreen;
+}
+.form-container textarea{
+	width: 100%;
+	min-height: 200px;
+	resize: none;
+	padding: 15px;
+    margin: 5px 0 22px 0;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+.form-container textarea:focus{
+	background: #ddd;
+	outline: none;
+}
+.form-container .btn{
+	color: white;
+	background: darkgreen;
+    margin-right: 50px;
+    width: 80px;
+   
+}
+.form-container .cancel{
+	color: white;
+	background: red;
+	margin-left: 30px;
+	margin-right: 0;
+}
+.bto{
+	text-align: center;
+	margin-left: ;
+}
